@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true">
+	<filter>
+		<whitelist
+			addUncoveredFilesFromWhitelist="true"
+			processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./phpUnitTutorial/</directory>
+        </whitelist>
+	</filter>
     <testsuites>
         <testsuite name="Application Test Suite">
             <directory>./phpUnitTutorial/Test/</directory>
