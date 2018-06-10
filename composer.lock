@@ -4,8 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ab0ab6c80f2a03595124276fc3bae93",
-    "packages": [],
+    "content-hash": "86bc32b9b2bd603983ee857397a589a0",
+    "packages": [
+        {
+            "name": "ajbdev/authorizenet-php-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ajbdev/authorizenet-php-api.git",
+                "reference": "688dcad1df36b39b0ececdc5d5f9f4368efb5686"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ajbdev/authorizenet-php-api/zipball/688dcad1df36b39b0ececdc5d5f9f4368efb5686",
+                "reference": "688dcad1df36b39b0ececdc5d5f9f4368efb5686",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/",
+                    "AuthorizeNet.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Authorize.NET PHP library with composer support",
+            "keywords": [
+                "authorize.net",
+                "ecommerce",
+                "payment"
+            ],
+            "abandoned": "authorizenet/authorizenet",
+            "time": "2017-07-29T01:45:50+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1415,7 +1450,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ajbdev/authorizenet-php-api": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
