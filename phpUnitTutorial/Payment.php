@@ -7,7 +7,7 @@ class Payment
 	const API_ID = 12345;
 	const TRANS_KEY = 'TRANSACTION KEY';
 
-	public function processPayment(\AuthorizeNetAIM $transaction, $paymentDetails)
+	public function processPayment($transaction, $paymentDetails)
 	{
 		$transaction->amount = $paymentDetails['amount'];
 		$transaction->card_num = $paymentDetails['card_num'];
